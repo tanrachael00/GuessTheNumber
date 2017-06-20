@@ -15,7 +15,4 @@ while attempts >= 0:
     attempts = str(attempts)
     print ("In " + attempts + " tries, you guessed the number!")
     break
-  
-if guess != number:
-    number = str(number)    
-    print('Nope. The number I was thinking of was ' + number)
+ 
